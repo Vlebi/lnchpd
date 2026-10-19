@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 3 | Tier 1 | 6.3h | 1 |
+| Week 3 | Tier 1 | 6.5h | 1 |
 
 ## Contents
 
@@ -20,7 +20,7 @@
 
 ### 2026-10-19 – Journal 1:
 
-**6.3h**
+**6.5h**
 
 Journal 1:
 
@@ -49,3 +49,5 @@ also had some Unconnected items. Fixed by connecting them (i guess thats how you
 ![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/sCBI3ojvDWBP38LVSmrM83tqWftTfcqi/a640c45589396bcf7ee81ae17809aa0e06fb70a20289a91468914f4f5f2f6633.png)
 
 ![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/sCBI3ojvDWBP38LVSmrM83tqWftTfcqi/fcf279e2d3e83a1910c7dde84c9a26277089783322a60f73437254843b764ff2.png)
+
+later i also added 2 extra buttons, 1 is reserved for future use and one is for switching betwen instument modes.
