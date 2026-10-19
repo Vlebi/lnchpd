@@ -1211,6 +1211,12 @@
 		(uuid "0ef950bb-b873-43c1-8ce4-32e6a1276f6f")
 	)
 	(junction
+		(at 68.58 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12432d9f-0107-4fd6-b03b-b8a6b81128d7")
+	)
+	(junction
 		(at 45.72 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1229,6 +1235,12 @@
 		(uuid "64593de8-59e2-44eb-a2d6-05aaf9270678")
 	)
 	(junction
+		(at 81.28 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93c237a5-42af-4240-a014-1d4fd0ed3397")
+	)
+	(junction
 		(at 45.72 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1236,7 +1248,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 125.73) (xy 104.14 125.73)
+			(xy 58.42 125.73) (xy 68.58 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1316,6 +1328,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 111.76) (xy 68.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b0389c7-8b26-42d3-816a-9577a7d7ec2e")
+	)
+	(wire
+		(pts
 			(xy 55.88 68.58) (xy 81.28 68.58)
 		)
 		(stroke
@@ -1323,6 +1345,16 @@
 			(type default)
 		)
 		(uuid "5ec7e972-5ac8-4edb-8558-df1133c04826")
+	)
+	(wire
+		(pts
+			(xy 68.58 121.92) (xy 68.58 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "669679f9-a2e4-46d5-a4dd-273fd33a5be6")
 	)
 	(wire
 		(pts
@@ -1446,6 +1478,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 111.76) (xy 72.39 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d115f928-eb6a-43a9-9ee6-b019ec8b4377")
+	)
+	(wire
+		(pts
 			(xy 63.5 76.2) (xy 81.28 76.2)
 		)
 		(stroke
@@ -1466,6 +1508,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 125.73) (xy 104.14 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d975fc00-cf2a-41eb-b153-76a6d7d791ac")
+	)
+	(wire
+		(pts
 			(xy 58.42 97.79) (xy 63.5 97.79)
 		)
 		(stroke
@@ -1473,6 +1525,56 @@
 			(type default)
 		)
 		(uuid "dcfd4241-8db2-4789-92b2-5b09138e6ec0")
+	)
+	(wire
+		(pts
+			(xy 81.28 121.92) (xy 81.28 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9935ff8-7740-449d-a73f-595010adbb78")
+	)
+	(wire
+		(pts
+			(xy 81.28 111.76) (xy 72.39 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1832ab-c678-43b3-8d36-e93283e5da7f")
+	)
+	(wire
+		(pts
+			(xy 68.58 81.28) (xy 81.28 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eddbe0ec-6160-4932-a8b0-488d40ad8eb1")
+	)
+	(wire
+		(pts
+			(xy 68.58 125.73) (xy 81.28 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f374799c-0e3c-472f-a0ef-38868fe08451")
+	)
+	(wire
+		(pts
+			(xy 72.39 83.82) (xy 81.28 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c74565-64bf-475e-a7d9-09756be57fc7")
 	)
 	(wire
 		(pts
@@ -1586,6 +1688,88 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
+		(at 68.58 116.84 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4fbf4b01-1689-437c-937f-a140b327ae6a")
+		(property "Reference" "SW7"
+			(at 69.85 118.1101 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 69.85 115.5701 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+			(at 63.5 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 68.58 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9a42a61-93fe-41ee-b71e-45b788d50160")
+		)
+		(pin "2"
+			(uuid "fd8c5159-b772-4e64-b872-6ca018acb85c")
+		)
+		(instances
+			(project "lnchpd-kicad"
+				(path "/d9b20792-1dad-4bd3-b9ac-c097f2b0631d"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
 		(at 58.42 90.17 90)
 		(unit 1)
 		(body_style 1)
@@ -1659,6 +1843,88 @@
 			(project "lnchpd-kicad"
 				(path "/d9b20792-1dad-4bd3-b9ac-c097f2b0631d"
 					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 81.28 116.84 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8da09499-1ca1-4eb9-8b78-0eee44bf6835")
+		(property "Reference" "SW8"
+			(at 82.55 118.1101 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 82.55 115.5701 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+			(at 76.2 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 81.28 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f47d9c26-5b5c-4aef-89ae-90fd2d6bc069")
+		)
+		(pin "2"
+			(uuid "ff709c63-f154-4484-88ff-f5d42a634893")
+		)
+		(instances
+			(project "lnchpd-kicad"
+				(path "/d9b20792-1dad-4bd3-b9ac-c097f2b0631d"
+					(reference "SW8")
 					(unit 1)
 				)
 			)
