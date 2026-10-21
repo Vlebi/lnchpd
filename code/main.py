@@ -30,7 +30,7 @@ def send_midi(status, note, velocity):
     msg = bytes([status, note, velocity])
     usb_midi.ports[0].write(msg)
 
-print("8-Button Controller Initialized (Drums, SFX, 4-Track Looper, Synth)...")
+print("Initialized ")
 
 while True:
     current_time = time.ticks_ms()
