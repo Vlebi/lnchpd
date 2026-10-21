@@ -1,3 +1,6 @@
+<img width="2368" height="1266" alt="image" src="https://github.com/user-attachments/assets/3a19d24a-173f-4885-ba5a-d21f3011de13" />
+
+
 A compact, custom-designed USB-MIDI controller built for live DJ performance, sample triggering, and live looping. Powered by a Raspberry Pi Pico (RP2040) and custom-routed PCBs, running native MicroPython.
 
 Features:
@@ -29,6 +32,9 @@ Button 6 (GPIO 5): Global Looper Command (Long press to wipe all tracks globally
 Button 7 (GPIO 6): FX Control 1 (Sends Control Change CC 16).
 
 Button 8 (GPIO 7): FX Control 2 (Sends Control Change CC 17).
+
+<img width="1850" height="1267" alt="image" src="https://github.com/user-attachments/assets/c37b9dcb-8b7b-4ff3-b91f-333e10884d75" />
+
 
 
 BOM:
